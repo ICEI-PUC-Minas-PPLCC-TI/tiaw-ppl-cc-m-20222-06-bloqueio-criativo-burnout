@@ -287,7 +287,19 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 # Metodologia
 
-......  COLOQUE AQUI O SEU TEXTO ......
+O grupo utilizou para o Design Thinking as ferramentas disponibilizadas pelos professores:
+
+> - Matriz CSD
+> - Mapa de Stakeholders
+> - Diagrama de personas
+> - Mural de possibilidades
+> - Mapa de priorização
+
+E para discutirmos sobre o que será feito e para dividirmos as tarefas foram utilizados:
+
+> - WhatsApp
+> - Discord
+> - Trello
 
 > Nesta parte do documento, você deve apresentar a metodologia 
 > adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
@@ -307,7 +319,21 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Divisão de Papéis
 
-......  COLOQUE AQUI O SEU TEXTO ......
+### Scrum Master
+
+
+
+### Product Owwner
+
+> - Professores
+
+### Equipe de Desenvolvimento
+
+> - André Scianni
+> - Carlos Vinícius
+> - Fernando Wagner
+> - Paulo Henrique
+> - Vítor Varela
 
 > Apresente a divisão de papéis e tarefas entre os membros do grupo.
 >
@@ -321,22 +347,21 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
 |Processo de Design Thinkgin  | Miro |  https://miro.com/app/board/uXjVPWjVjz0=/?share_link_id=40117820975 | 
-|Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PPLCC-TI/tiaw-ppl-cc-m-20222-06-bloqueio-criativo-burnout | 
-|Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
+|Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PPLCC-TI/tiaw-ppl-cc-m-20222-06-bloqueio-criativo-burnout |  
 |Protótipo Interativo | MavelApp ou Figma | https://figma.com/XXXXXXX |
 |Editor de código | VS Code |
-|Ferramentas de Comunicação | Discord e Whatsapp |
-|Ferramentas de diagramação | Figma | https://figma.com/XXXXXXX |
+|Ferramentas de Comunicação | Discord e WhatsApp |
 |Plataforma de Hospedagem | Github Pages | https://figma.com/XXXXXXX |
 
+Para o protótipo interativo foi escolhido o Figma, pois um dos membros tem mais familiaridade com a plataforma. O editor de código escolhido foi o VS Code por ter integração com o git e possuir também outras funcionalidade que agilizam o trabalho. As ferramentas de comunicação escolhidas são Discord e WhatsApp por serem muito utilizadas pelos membros do grupo. E a plataforma de hospedagem escolhida foi o GitHub Pages pela sua integração com o GitHub.
 
 
-| Ambiente  | Plataforma              |Link de Acesso |
+<!-- | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
 |Processo de Design Thinkgin  | Miro |  https://miro.com/XXXXXXX | 
 |Repositório de código | GitHub | https://github.com/XXXXXXX | 
 |Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
-|Protótipo Interativo | MavelApp ou Figma | https://figma.com/XXXXXXX | 
+|Protótipo Interativo | MavelApp ou Figma | https://figma.com/XXXXXXX | --> 
 
 >
 > Liste as ferramentas empregadas no desenvolvimento do
