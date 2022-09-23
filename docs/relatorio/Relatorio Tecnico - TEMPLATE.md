@@ -289,17 +289,17 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 O grupo utilizou para o Design Thinking as ferramentas disponibilizadas pelos professores:
 
-> - Matriz CSD
-> - Mapa de Stakeholders
-> - Diagrama de personas
-> - Mural de possibilidades
-> - Mapa de priorização
+ - Matriz CSD
+ - Mapa de Stakeholders
+ - Diagrama de personas
+ - Mural de possibilidades
+ - Mapa de priorização
 
 E para discutirmos sobre o que será feito e para dividirmos as tarefas foram utilizados:
 
-> - WhatsApp
-> - Discord
-> - Trello
+ - WhatsApp
+ - Discord
+ - Trello
 
 > Nesta parte do documento, você deve apresentar a metodologia 
 > adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
@@ -325,15 +325,15 @@ E para discutirmos sobre o que será feito e para dividirmos as tarefas foram ut
 
 ### Product Owwner
 
-> - Professores
+ - Professores
 
 ### Equipe de Desenvolvimento
 
-> - André Scianni
-> - Carlos Vinícius
-> - Fernando Wagner
-> - Paulo Henrique
-> - Vítor Varela
+ - André Scianni
+ - Carlos Vinícius
+ - Fernando Wagner
+ - Paulo Henrique
+ - Vítor Varela
 
 > Apresente a divisão de papéis e tarefas entre os membros do grupo.
 >
