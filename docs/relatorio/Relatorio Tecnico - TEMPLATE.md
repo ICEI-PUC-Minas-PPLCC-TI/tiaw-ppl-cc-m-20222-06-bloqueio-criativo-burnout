@@ -318,7 +318,18 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 
 ## Ferramentas
 
-......  COLOQUE AQUI O SEU TEXTO - SIGA O EXEMPLO DA TABELA ABAIXO  ......
+| Ambiente  | Plataforma              |Link de Acesso |
+|-----------|-------------------------|---------------|
+|Processo de Design Thinkgin  | Miro |  https://miro.com/app/board/uXjVPWjVjz0=/?share_link_id=40117820975 | 
+|Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PPLCC-TI/tiaw-ppl-cc-m-20222-06-bloqueio-criativo-burnout | 
+|Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
+|Protótipo Interativo | MavelApp ou Figma | https://figma.com/XXXXXXX |
+|Editor de código | VS Code |
+|Ferramentas de Comunicação | Discord e Whatsapp |
+|Ferramentas de diagramação | Figma | https://figma.com/XXXXXXX |
+|Plataforma de Hospedagem | Github Pages | https://figma.com/XXXXXXX |
+
+
 
 | Ambiente  | Plataforma              |Link de Acesso |
 |-----------|-------------------------|---------------|
