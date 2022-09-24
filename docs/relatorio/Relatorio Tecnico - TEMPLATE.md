@@ -1,15 +1,19 @@
 # Informações do Projeto
 `TÍTULO DO PROJETO`  
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Chillout
 
 `CURSO` 
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Ciência da Computação
 
 ## Participantes
 
-......  COLOQUE AQUI O SEU TEXTO ......
+- André Scianni Pereira
+- Carlos Vinícius de Souza Coelho
+- Fernando Wagner Gomes Salim
+- Paulo Henrique Marques de Menezes
+- Vítor Varela Chausson
 
 > Inclua a lista dos membros da equipe com seus nomes completos.
 >
