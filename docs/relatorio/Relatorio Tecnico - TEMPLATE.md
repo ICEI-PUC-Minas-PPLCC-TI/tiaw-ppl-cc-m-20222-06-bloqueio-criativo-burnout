@@ -60,7 +60,7 @@ Ciência da Computação
 
 ## Problema
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Dois problemas que acometem muitos profissionais hoje em dia, principalmente aqueles que trabalham com criação de conteúdo são o bloqueio criativo e o burnout. A dificuldade de cumprir prazos com um trabalho que exige criatividade e inspiração é algo que sobrecarrega bastante profissionais da área e pessoasem situações parecidas. A desorganização da rotina de criação é uma dasprincipais raízes desses problemas, já que um dia a dia muito cansativo atrapalha a busca por inspiração. O programa, projetado para o uso dessas pessoas, ajudaria nessa organização e na inspiração dessas pessoas.
 
 > Nesse momento você deve apresentar o problema que a sua aplicação deve
 > resolver. No entanto, não é a hora de comentar sobre a aplicação.
@@ -80,7 +80,7 @@ Ciência da Computação
 
 ## Objetivos
 
-......  COLOQUE AQUI O SEU TEXTO ......
+O foco principal do software que iremos desenvolver é auxiliar as pessoas na busca por inspiração e na organização do tempo, diminuindo o bloqueio criativo e burnout. Ele será desenvolvido com criadores de conteúdo como músicos, desenhistas e influenciadores sendo o principal público em mente, portanto outros objetivos do projeto são: fornecer sugestões de cores para desenhistas baseadas em teorias já existentes sobre o assunto; organizar rotinas de prática de habilidades específicas para músicos e desenvolver modelos de listas de tarefas baseados na profissão ou hobby do usuário.
 
 > Aqui você deve descrever os objetivos do trabalho indicando que o
 > objetivo geral é desenvolver um software para solucionar o problema
@@ -93,7 +93,7 @@ Ciência da Computação
 
 ## Justificativa
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Na atualidade, as pessoas são cobradas constantemente com entrega de produtos, uma vez que o mundo moderno exige cada vez mais que as pessoas se adaptem rapidamente e estejam dispostas a atender as necessidades da sociedade. Essa cobrança constante gera problemas como o burnout e o bloqueio criativo, que acometem principalmente aqueles que trabalham com criação de conteúdo, prejudicando o sucesso de artistas, músicos e outros profissionais da área. Diante dessa situação resolvemos desenvolver um software que auxiliasse na organização do tempo dessas pessoas, diminuindo a sobrecarga constante que causa os problemas descritos. Escutamos relatos de profissionais que trabalham nessa área e há um consenso de que esses são problemas comuns e difíceis de lidar. Optamos por um programa de organização de tempo com sugestões baseadas na profissão do usuário para entregar um atendimento especializado aos usuários, focando em problemas reais e específicos que os acometem.
 
 > Descreva a importância ou a motivação para trabalhar com esta aplicação
 > que você escolheu. Indique as razões pelas quais você escolheu seus
@@ -109,7 +109,7 @@ Ciência da Computação
 
 ## Público-Alvo
 
-......  COLOQUE AQUI O SEU TEXTO ......
+O público alvo do nosso projeto é composto principalmente de criadores de conteúdo, mais especificamente músicos, desenhistas, pintores, escritores, roteiristas, artistas no geral e influenciadores, exercendo a criação como profissão ou como hobby. É recomendado que o usuário tenha conhecimento prévio da área, porém o software também será útil para iniciantes. Nosso público alvo também é esperado que esteja imerso nas tecnologias atuais, com acesso a pelo menos um smartphone e um computador. 
 
 > Descreva quem serão as pessoas que usarão a sua aplicação indicando os
 > diferentes perfis. O objetivo aqui não é definir quem serão os
