@@ -352,7 +352,7 @@ E para discutirmos sobre o que será feito e para dividirmos as tarefas foram ut
 |-----------|-------------------------|---------------|
 |Processo de Design Thinkgin  | Miro |  https://miro.com/app/board/uXjVPWjVjz0=/?share_link_id=40117820975 | 
 |Repositório de código | GitHub | https://github.com/ICEI-PUC-Minas-PPLCC-TI/tiaw-ppl-cc-m-20222-06-bloqueio-criativo-burnout |  
-|Protótipo Interativo | MavelApp ou Figma | https://figma.com/XXXXXXX |
+|Protótipo Interativo | Figma | https://figma.com/XXXXXXX |
 |Editor de código | VS Code |
 |Ferramentas de Comunicação | Discord e WhatsApp |
 |Plataforma de Hospedagem | Github Pages | https://figma.com/XXXXXXX |
@@ -392,7 +392,17 @@ Para o protótipo interativo foi escolhido o Figma, pois um dos membros tem mais
 
 ## Controle de Versão
 
-......  COLOQUE AQUI O SEU TEXTO ......
+O projeto segue a seguinte convenção para o nome de branchs:
+
+ - `master`: versão estável já testada do software
+ - `testing`: versão em testes do software
+ - `dev`: versão de desenvolvimento do software
+
+O projeto segue a seguinte convenção para o nome de branchs:
+
+- `bugfix`: uma funcionalidade encontra-se com problemas
+- `enhancement`: uma funcionalidade precisa ser melhorada
+- `feature`: uma nova funcionalidade precisa ser introduzida
 
 > Discuta como a configuração do projeto foi feita na ferramenta de
 > versionamento escolhida. Exponha como a gerência de tags, merges,
