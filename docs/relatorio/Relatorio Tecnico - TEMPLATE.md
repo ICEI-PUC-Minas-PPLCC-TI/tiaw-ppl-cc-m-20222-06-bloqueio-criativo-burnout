@@ -128,7 +128,7 @@ O público alvo do nosso projeto é composto principalmente de criadores de cont
  
 # Especificações do Projeto
 
-......  COLOQUE AQUI O SEU TEXTO ......
+Essa parte do relatorio foi responsável por nos guiar a entender quem sofre do nosso problema, na perspectivas deles, para que assim nos possamos encontrar uma solução para o problema.
 
 > Apresente uma visão geral do que será abordado nesta parte do
 > documento, enumerando as técnicas e/ou ferramentas utilizadas para
@@ -137,6 +137,15 @@ O público alvo do nosso projeto é composto principalmente de criadores de cont
 ## Personas e Mapas de Empatia
 
 ......  COLOQUE AQUI O SEU TEXTO ......
+
+>**Músico**
+> ![Persona de um músico](imaages/../images/persona1.png)
+
+>**Criador de conteúdo**
+> ![Persona de um criador de conteudo](imaages/../images/persona2.png)
+
+>**Artista conceitual**
+> ![Persona de um artista conceitual](imaages/../images/persona1.png)
 
 
 > Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que 
@@ -168,8 +177,10 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Criador de conteudo | Inspirações de memes               | Criar videos de entretinmento          |
+|Criador de conteudo | Registrar cronograma de uploads     | Organizar meu tempo de produção        |
+|Musico              | Organizar rotinas de trabalho/lazer | Conseguir organizar minha mente para projetos |
+|Artista conceitual  | Integrar minhas artes digitalmente  | Aproveitar o maximo de ferramentas digitais         |
 
 > Apresente aqui as histórias de usuário que são relevantes para o
 > projeto de sua solução. As Histórias de Usuário consistem em uma
@@ -190,16 +201,21 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| Permitir que o usuário cadastre TODO-LISTS | ALTA | 
+|RF-002| Permitir que o usuário cadastre ideias| ALTA | 
+|RF-003| Ajudar com inspirações criativas externas | BAIXO | 
+|RF-004| Permitir que o usuário lance seus cronogramas  | MÉDIA |
+|RF-005| Integração com mesas digitais | BAIXO | 
+|RF-006| Layout vertical, igual de rede social | BAIXO | 
 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-001| Compatibilidade multi-plataforma | MÉDIA | 
+|RNF-002| Chamadas em API externas para exibir inspirações  |  MÉDIA | 
+|RNF-003| Desenhar com mesa digitai | MÉDIA | 
 
 > Com base nas Histórias de Usuário, enumere os requisitos da sua
 > solução. Classifique esses requisitos em dois grupos:
@@ -231,6 +247,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
 |02| Não pode ser desenvolvido um módulo de backend        |
+|03| Não entregar ideias completamente finalizadas     |
+|04| Os recursos do projeto devem ser intuitivos       |
 
 
 > Enumere as restrições à sua solução. Lembre-se de que as restrições
