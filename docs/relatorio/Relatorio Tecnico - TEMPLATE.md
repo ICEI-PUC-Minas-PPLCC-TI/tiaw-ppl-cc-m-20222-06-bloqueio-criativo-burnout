@@ -146,7 +146,7 @@ Essa parte do relatorio foi responsável por nos guiar a entender quem sofre do 
 >**Artista conceitual**
 >
 >
->    ![Persona de um artista conceitual](imaages/../images/persona1.png)
+>    ![Persona de um artista conceitual](imaages/../images/persona3.png)
 
 
 
