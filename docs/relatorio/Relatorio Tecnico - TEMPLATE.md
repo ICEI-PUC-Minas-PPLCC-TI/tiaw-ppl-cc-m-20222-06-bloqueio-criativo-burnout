@@ -211,6 +211,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |RF-004| Permitir que o usuário lance seus cronogramas  | MÉDIA |
 |RF-005| Integração com mesas digitais | BAIXO | 
 |RF-006| Layout vertical, igual de rede social | BAIXO | 
+|RF-007| Preset de lista de acordo com profissão | BAIXO | 
 
 
 ### Requisitos não Funcionais
