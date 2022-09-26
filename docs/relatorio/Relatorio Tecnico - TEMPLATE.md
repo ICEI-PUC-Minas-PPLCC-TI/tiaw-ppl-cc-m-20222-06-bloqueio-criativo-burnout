@@ -136,16 +136,20 @@ Essa parte do relatorio foi responsável por nos guiar a entender quem sofre do 
 
 ## Personas e Mapas de Empatia
 
-......  COLOQUE AQUI O SEU TEXTO ......
-
 >**Músico**
-> ![Persona de um músico](imaages/../images/persona1.png)
+>
+>
+>    ![Persona de um músico](imaages/../images/persona1.png)
 
 >**Criador de conteúdo**
-> ![Persona de um criador de conteudo](imaages/../images/persona2.png)
+>
+>
+>    ![Persona de um criador de conteudo](imaages/../images/persona2.png)
 
 >**Artista conceitual**
-> ![Persona de um artista conceitual](imaages/../images/persona1.png)
+>
+>
+>    ![Persona de um artista conceitual](imaages/../images/persona1.png)
 
 
 > Relacione as personas identificadas no seu projeto e os respectivos mapas de empatia. Lembre-se que 
