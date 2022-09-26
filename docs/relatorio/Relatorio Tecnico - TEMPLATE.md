@@ -60,7 +60,7 @@ Ciência da Computação
 
 ## Problema
 
-Dois problemas que acometem muitos profissionais hoje em dia, principalmente aqueles que trabalham com criação de conteúdo são o bloqueio criativo e o burnout. A dificuldade de cumprir prazos com um trabalho que exige criatividade e inspiração é algo que sobrecarrega bastante profissionais da área e pessoasem situações parecidas. A desorganização da rotina de criação é uma dasprincipais raízes desses problemas, já que um dia a dia muito cansativo atrapalha a busca por inspiração. O programa, projetado para o uso dessas pessoas, ajudaria nessa organização e na inspiração dessas pessoas.
+Dois problemas que acometem muitos profissionais hoje em dia, principalmente aqueles que trabalham com criação de conteúdo são o bloqueio criativo e o burnout. A dificuldade de cumprir prazos com um trabalho que exige criatividade e inspiração é algo que sobrecarrega bastante profissionais da área e pessoas em situações parecidas. A desorganização da rotina de criação é uma dasprincipais raízes desses problemas, já que um dia a dia muito cansativo atrapalha a busca por inspiração. O programa, projetado para o uso dessas pessoas, ajudaria nessa organização e na inspiração dessas pessoas.
 
 > Nesse momento você deve apresentar o problema que a sua aplicação deve
 > resolver. No entanto, não é a hora de comentar sobre a aplicação.
@@ -398,7 +398,7 @@ O projeto segue a seguinte convenção para o nome de branchs:
  - `testing`: versão em testes do software
  - `dev`: versão de desenvolvimento do software
 
-O projeto segue a seguinte convenção para o nome de branchs:
+Para a gerência de issues, a seguinte convenção para etiquetas foi adotada:
 
 - `bugfix`: uma funcionalidade encontra-se com problemas
 - `enhancement`: uma funcionalidade precisa ser melhorada
