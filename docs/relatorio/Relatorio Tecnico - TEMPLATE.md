@@ -15,12 +15,6 @@ Ciência da Computação
 - Paulo Henrique Marques de Menezes
 - Vítor Varela Chausson
 
-> Inclua a lista dos membros da equipe com seus nomes completos.
->
-> Os membros do grupo são: 
-> - Fulano da Silva
-> - Ciclano Albuquerque
-
 # Estrutura do Documento
 
 - [Informações do Projeto](#informações-do-projeto)
@@ -62,73 +56,25 @@ Ciência da Computação
 
 Dois problemas que acometem muitos profissionais hoje em dia, principalmente aqueles que trabalham com criação de conteúdo são o bloqueio criativo e o burnout. A dificuldade de cumprir prazos com um trabalho que exige criatividade e inspiração é algo que sobrecarrega bastante profissionais da área e pessoas em situações parecidas. A desorganização da rotina de criação é uma dasprincipais raízes desses problemas, já que um dia a dia muito cansativo atrapalha a busca por inspiração. O programa, projetado para o uso dessas pessoas, ajudaria nessa organização e na inspiração dessas pessoas.
 
-> Nesse momento você deve apresentar o problema que a sua aplicação deve
-> resolver. No entanto, não é a hora de comentar sobre a aplicação.
-> Descreva também o contexto em que essa aplicação será usada, se
-> houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de
-> fato existir, pois ainda não é a hora de apresentar requisitos
-> detalhados ou projetos.
->
-> Nesse momento, o grupo pode optar por fazer uso
-> de ferramentas como Design Thinking, que permite um olhar de ponta a
-> ponta para o problema.
->
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
 
 ## Objetivos
 
 O foco principal do software que iremos desenvolver é auxiliar as pessoas na busca por inspiração e na organização do tempo, diminuindo o bloqueio criativo e burnout. Ele será desenvolvido com criadores de conteúdo como músicos, desenhistas e influenciadores sendo o principal público em mente, portanto outros objetivos do projeto são: fornecer sugestões de cores para desenhistas baseadas em teorias já existentes sobre o assunto; organizar rotinas de prática de habilidades específicas para músicos e desenvolver modelos de listas de tarefas baseados na profissão ou hobby do usuário.
 
-> Aqui você deve descrever os objetivos do trabalho indicando que o
-> objetivo geral é desenvolver um software para solucionar o problema
-> apresentado acima. Apresente também alguns (pelo menos 2) objetivos
-> específicos dependendo de onde você vai querer concentrar a sua
-> prática investigativa, ou como você vai aprofundar no seu trabalho.
-> 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
 
 ## Justificativa
 
 Na atualidade, as pessoas são cobradas constantemente com entrega de produtos, uma vez que o mundo moderno exige cada vez mais que as pessoas se adaptem rapidamente e estejam dispostas a atender as necessidades da sociedade. Essa cobrança constante gera problemas como o burnout e o bloqueio criativo, que acometem principalmente aqueles que trabalham com criação de conteúdo, prejudicando o sucesso de artistas, músicos e outros profissionais da área. Diante dessa situação resolvemos desenvolver um software que auxiliasse na organização do tempo dessas pessoas, diminuindo a sobrecarga constante que causa os problemas descritos. Escutamos relatos de profissionais que trabalham nessa área e há um consenso de que esses são problemas comuns e difíceis de lidar. Optamos por um programa de organização de tempo com sugestões baseadas na profissão do usuário para entregar um atendimento especializado aos usuários, focando em problemas reais e específicos que os acometem.
 
-> Descreva a importância ou a motivação para trabalhar com esta aplicação
-> que você escolheu. Indique as razões pelas quais você escolheu seus
-> objetivos específicos ou as razões para aprofundar em certos aspectos
-> do software.
-> 
-> O grupo de trabalho pode fazer uso de questionários, entrevistas e
-> dados estatísticos, que podem ser apresentados, com o objetivo de
-> esclarecer detalhes do problema que será abordado pelo grupo.
->
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
 
 ## Público-Alvo
 
 O público alvo do nosso projeto é composto principalmente de criadores de conteúdo, mais especificamente músicos, desenhistas, pintores, escritores, roteiristas, artistas no geral e influenciadores, exercendo a criação como profissão ou como hobby. É recomendado que o usuário tenha conhecimento prévio da área, porém o software também será útil para iniciantes. Nosso público alvo também é esperado que esteja imerso nas tecnologias atuais, com acesso a pelo menos um smartphone e um computador. 
 
-> Descreva quem serão as pessoas que usarão a sua aplicação indicando os
-> diferentes perfis. O objetivo aqui não é definir quem serão os
-> clientes ou quais serão os papéis dos usuários na aplicação. A ideia
-> é, dentro do possível, conhecer um pouco mais sobre o perfil dos
-> usuários: conhecimentos prévios, relação com a tecnologia, relações
-> hierárquicas, etc.
->
-> Adicione informações sobre o público-alvo por meio de uma descrição
-> textual, ou diagramas de personas, mapa de stakeholders, ou como o
-> grupo achar mais conveniente.
-> 
-> **Links Úteis**:
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
  
 # Especificações do Projeto
 
-Essa parte do relatorio foi responsável por nos guiar a entender quem sofre do nosso problema, na perspectivas deles, para que assim nos possamos encontrar uma solução para o problema.
+Essa parte do relatório foi responsável por nos guiar a entender quem sofre do nosso problema, nas perspectivas deles, para que assim nos possamos encontrar uma solução para o problema.
 
 
 ## Personas e Mapas de Empatia
@@ -173,11 +119,11 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 |------|-----------------------------------------|----|
 |RF-001| Permitir que o usuário cadastre TODO-LISTS | ALTA | 
 |RF-002| Permitir que o usuário cadastre ideias| ALTA | 
-|RF-003| Ajudar com inspirações criativas externas | BAIXO | 
-|RF-004| Permitir que o usuário lance seus cronogramas  | MÉDIA |
-|RF-005| Integração com mesas digitais | BAIXO | 
-|RF-006| Layout vertical, igual de rede social | BAIXO | 
-|RF-007| Preset de lista de acordo com profissão | BAIXO | 
+|RF-003| Permitir que o usuário lance seus cronogramas  | MÉDIA |
+|RF-004| Preset de lista de acordo com profissão | MÉDIA | 
+|RF-005| Ajudar com inspirações criativas externas | BAIXO | 
+|RF-006| Integração com mesas digitais | BAIXO | 
+|RF-007| Layout vertical, igual de rede social | BAIXO | 
 
 
 ### Requisitos não Funcionais
@@ -266,21 +212,6 @@ E para discutirmos sobre o que será feito e para dividirmos as tarefas foram ut
  - Discord
  - Trello
 
-> Nesta parte do documento, você deve apresentar a metodologia 
-> adotada pelo grupo, descrevendo o processo de trabalho baseado nas metodologias ágeis, 
-> a divisão de papéis e tarefas, as ferramentas empregadas e como foi realizada a
-> gestão de configuração do projeto via GitHub.
->
-> Coloque detalhes sobre o processo de Design Thinking e a implementação do Framework Scrum seguido
-> pelo grupo. O grupo poderá fazer uso de ferramentas on-line para acompanhar
-> o andamento do projeto, a execução das tarefas e o status de desenvolvimento
-> da solução.
-> 
-> **Links Úteis**:
-> - [Tutorial Trello](https://trello.com/b/8AygzjUA/tutorial-trello)
-> - [Gestão ágil de projetos com o Trello](https://www.youtube.com/watch?v=1o9BOMAKBRE)
-> - [Gerência de projetos - Trello com Scrum](https://www.youtube.com/watch?v=DHLA8X_ujwo)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
 
 ## Divisão de Papéis
 
@@ -300,11 +231,6 @@ E para discutirmos sobre o que será feito e para dividirmos as tarefas foram ut
  - Paulo Henrique
  - Vítor Varela
 
-> Apresente a divisão de papéis e tarefas entre os membros do grupo.
->
-> **Links Úteis**:
-> - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
-> - [Scrum em 9 minutos](https://www.youtube.com/watch?v=XfvQWnRgxG0)
 
 
 ## Ferramentas
@@ -328,28 +254,6 @@ Para o protótipo interativo foi escolhido o Figma, pois um dos membros tem mais
 |Hospedagem do site | Heroku |  https://XXXXXXX.herokuapp.com | 
 |Protótipo Interativo | MavelApp ou Figma | https://figma.com/XXXXXXX | --> 
 
->
-> Liste as ferramentas empregadas no desenvolvimento do
-> projeto, justificando a escolha delas, sempre que possível.
-> 
-> As ferramentas empregadas no projeto são:
-> 
-> - Editor de código.
-> - Ferramentas de comunicação
-> - Ferramentas de diagramação
-> - Plataforma de hospedagem
-> 
-> O editor de código foi escolhido porque ele possui uma integração com o
-> sistema de versão. As ferramentas de comunicação utilizadas possuem
-> integração semelhante e por isso foram selecionadas. Por fim, para criar
-> diagramas utilizamos essa ferramenta por melhor captar as
-> necessidades da nossa solução.
-> 
-> **Links Úteis - Hospedagem**:
-> - [Getting Started with Heroku](https://devcenter.heroku.com/start)
-> - [Crie seu Site com o HostGator](https://www.hostgator.com.br/como-publicar-seu-site)
-> - [GoDady](https://br.godaddy.com/how-to)
-> - [GitHub Pages](https://pages.github.com/)
 
 ## Controle de Versão
 
@@ -364,37 +268,6 @@ Para a gerência de issues, a seguinte convenção para etiquetas foi adotada:
 - `bugfix`: uma funcionalidade encontra-se com problemas
 - `enhancement`: uma funcionalidade precisa ser melhorada
 - `feature`: uma nova funcionalidade precisa ser introduzida
-
-> Discuta como a configuração do projeto foi feita na ferramenta de
-> versionamento escolhida. Exponha como a gerência de tags, merges,
-> commits e branchs é realizada. Discuta como a gerência de issues foi
-> realizada.
-> A ferramenta de controle de versão adotada no projeto foi o
-> [Git](https://git-scm.com/), sendo que o [Github](https://github.com)
-> foi utilizado para hospedagem do repositório `upstream`.
-> 
-> O projeto segue a seguinte convenção para o nome de branchs:
-> 
-> - `master`: versão estável já testada do software
-> - `unstable`: versão já testada do software, porém instável
-> - `testing`: versão em testes do software
-> - `dev`: versão de desenvolvimento do software
-> 
-> Quanto à gerência de issues, o projeto adota a seguinte convenção para
-> etiquetas:
-> 
-> - `bugfix`: uma funcionalidade encontra-se com problemas
-> - `enhancement`: uma funcionalidade precisa ser melhorada
-> - `feature`: uma nova funcionalidade precisa ser introduzida
->
-> **Links Úteis**:
-> - [Tutorial GitHub](https://guides.github.com/activities/hello-world/)
-> - [Git e Github](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
-> - [5 Git Workflows & Branching Strategy to deliver better code](https://zepel.io/blog/5-git-workflows-to-improve-development/)
->
-> **Exemplo - GitHub Feature Branch Workflow**:
->
-> ![Exemplo de Wireframe](images/Github-Workflow.png)
 
 # **############## SPRINT 1 ACABA AQUI #############**
 
