@@ -157,7 +157,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Criador de conteudo | Inspirações de memes               | Criar videos de entretinmento          |
+|Criador de conteudo | Inspirações de memes               | Criar videos de entretenimento          |
 |Criador de conteudo | Registrar cronograma de uploads     | Organizar meu tempo de produção        |
 |Musico              | Organizar rotinas de trabalho/lazer | Conseguir organizar minha mente para projetos |
 |Artista conceitual  | Integrar minhas artes digitalmente  | Aproveitar o maximo de ferramentas digitais         |
