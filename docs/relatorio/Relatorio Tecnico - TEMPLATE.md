@@ -143,9 +143,8 @@ O projeto está restrito pelos itens apresentados na tabela a seguir.
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
 |01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
-|03| Não entregar ideias completamente finalizadas     |
-|04| Os recursos do projeto devem ser intuitivos       |
+|02| Não entregar ideias completamente finalizadas     |
+|03| Os recursos do projeto devem ser intuitivos       |
 
 
 # Projeto de Interface
