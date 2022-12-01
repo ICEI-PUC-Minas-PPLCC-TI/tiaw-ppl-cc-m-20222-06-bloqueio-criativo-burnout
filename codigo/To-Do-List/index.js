@@ -233,20 +233,20 @@ function montaLinks() {
 
 function riscaTarefa() {
   listasCadastradas = JSON.parse(localStorage.getItem("listasCadastradas"));
-  const listasTela = document.querySelectorAll(".lista-item");
-  const tarefasTela = document.querySelectorAll(".tarefa");
-  const descricoes = document.querySelectorAll(".descricao");
-  const checks = document.querySelectorAll(".check");
+  let listasTela = document.querySelectorAll(".lista-item");
+  let tarefasTela = document.querySelectorAll(".tarefa");
+  let descricoes = document.querySelectorAll(".descricao");
+  let checks = document.querySelectorAll(".check");
 
   for (let i = 0; i < listasCadastradas.length; i++) {
-    const lista = listasCadastradas[i];
-    const listaTela = listasTela[i];
+    let lista = listasCadastradas[i];
+    let listaTela = listasTela[i];
 
     for (let j = 0; j < lista.tarefas.length; j++) {
-      const tarefa = lista.tarefas[j];
-      const tarefaTela = tarefasTela[j];
-      const descricao = descricoes[j];
-      const check = checks[j];
+      let tarefa = lista.tarefas[j];
+      let tarefaTela = tarefasTela[j];
+      let descricao = descricoes[j];
+      let check = checks[j];
 
       if (
         tarefaTela.contains(descricao) &&
