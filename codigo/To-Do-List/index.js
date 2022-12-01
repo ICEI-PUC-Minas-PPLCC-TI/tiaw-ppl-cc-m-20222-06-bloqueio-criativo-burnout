@@ -233,54 +233,48 @@ function montaLinks() {
 
 function riscaTarefa() {
   listasCadastradas = JSON.parse(localStorage.getItem("listasCadastradas"));
+  const listasTela = document.querySelectorAll(".lista-item");
+  const tarefasTela = document.querySelectorAll(".tarefa");
+  const descricoes = document.querySelectorAll(".descricao");
+  const checks = document.querySelectorAll(".check");
 
   for (let i = 0; i < listasCadastradas.length; i++) {
     const lista = listasCadastradas[i];
-    const listasTela = document.querySelectorAll(".lista-item");
     const listaTela = listasTela[i];
 
     for (let j = 0; j < lista.tarefas.length; j++) {
-      let tarefa = lista.tarefas[j];
-      if (document.querySelector(".check")) {
-        const checks = document.querySelectorAll(".check");
+      const tarefa = lista.tarefas[j];
+      const tarefaTela = tarefasTela[j];
+      const descricao = descricoes[j];
+      const check = checks[j];
 
-        for (let k = 0; k < checks.length; k++) {
-          const check = checks[k];
-          let clicado = false;
+      if (
+        tarefaTela.contains(descricao) &&
+        tarefaTela.contains(check) &&
+        tarefaTela.id == linkAtivo
+      ) {
+        let clicado = false;
+        check.addEventListener("click", (e) => {
+          if (clicado && check.checked == false) {
+            descricao.classList.remove("concluido");
+            clicado = false;
+            tarefa.terminado = false;
 
-          check.addEventListener("click", (e) => {
-            const descricoes = document.querySelectorAll(".descricao");
-            const descricao = descricoes[k];
+            localStorage.setItem(
+              "listasCadastradas",
+              JSON.stringify(listasCadastradas)
+            );
+          } else {
+            descricao.classList.add("concluido");
+            clicado = true;
+            tarefa.terminado = true;
 
-            if (listaTela.classList.contains("visivel")) {
-              if (clicado && check.checked == false) {
-                descricao.classList.remove("concluido");
-
-                clicado = false;
-
-                tarefa.terminado = false;
-
-                localStorage.setItem(
-                  "listasCadastradas",
-                  JSON.stringify(listasCadastradas)
-                );
-              } else {
-                if (check.checked == true) {
-                  descricao.classList.add("concluido");
-
-                  clicado = true;
-
-                  tarefa.terminado = true;
-
-                  localStorage.setItem(
-                    "listasCadastradas",
-                    JSON.stringify(listasCadastradas)
-                  );
-                }
-              }
-            }
-          });
-        }
+            localStorage.setItem(
+              "listasCadastradas",
+              JSON.stringify(listasCadastradas)
+            );
+          }
+        });
       }
     }
   }
