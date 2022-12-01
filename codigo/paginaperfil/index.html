@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <script defer src="modeloperfis.js"></script>
+<style>
+body {
+  margin: 0;
+}
+
+.list{
+  position: absolute;
+  top: 300px;
+  right: 350px;
+  font-size: 18px;
+}
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.content {
+  background-color: #ddd;
+  padding: 10px;
+  height: 500px; 
+}
+
+
+.footer {
+  background-color: #f1f1f1;
+  padding: 10px;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+<div class="list">
+</div>
+<div class="header">
+  <h1>Meu Perfil</h1>
+</div>
+<div class="topnav">
+  <a href="#" onclick="editarNome()">Editar Nome</a>
+  <a href="#">Editar Senha</a>
+  <a href="#" style="float:right">Homepage</a>
+</div>
+<div id="tela">
+  <div class="content">
+    <img id="avatar" src="https://www.w3schools.com/w3images/avatar2.png" alt="Avatar" style="width:200px">
+  <p><h1 id="nome">Nome Do Perfil</h1></p>
+  <label id="labelnvnm" for="input" hidden>Novo Nome: <input id="nvnm" type="text"><button onclick="salvarNome()">Salvar</button></label><br>
+  <p>Alterar Foto de Perfil</p>
+  <input type="file" onchange="previewFile()" /><br>
+  <h2>Listas</h2>
+  <button style="width:300px"  id="abrelista">Abrir Listas</button>
+  </div>
+</div>
+
+</head>
+<body>
+
+
+</body>
+</html>
