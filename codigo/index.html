@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="menu-mobile.css" />
+    <title>ChillOut | Home</title>
+  </head>
+  <body>
+    <div class="btns-menu">
+      <img src="./menu.svg" alt="" class="abre-btn btn-menu"/>
+      <img src="./x.svg" alt="" class="fecha-btn btn-menu" />
+    </div>
+    <div class="menu-mobile">
+      <a href="#" class="menu-mobile-links">Home</a>
+      <a href="./to-do-list/to-do-list.html" class="menu-mobile-links"
+        >To-Do-List</a
+      ><a href="./desenhar/desenhar.html" class="menu-mobile-links">Desenhar</a>
+      <a href="./cores/cores.html" class="menu-mobile-links">Paleta de Cores</a
+      ><a href="#" class="menu-mobile-links">Tipos de criação de conteúdo</a>
+      <a href="./paginaperfil/perfil.html" class="menu-mobile-links"
+        ><img src="profile.png" alt="Foto de Perfil" class="profpic"
+      /></a>
+    </div>
+    <menu> </menu>
+    <nav>
+      <div class="logo">
+        <img src="./Logo_LG.svg" alt="Logo" class="logo-img" id="profpic" />
+      </div>
+      <button id="btnmenu" onclick="abrirMenu()">&#9776;</button>
+      <ul id="botoesMenu">
+        <a href="#ferramenta1" class="active">
+          <li>
+            <p>Home</p>
+          </li>
+        </a>
+        <a href="./to-do-list/to-do-list.html">
+          <li>
+            <p>To-Do-List</p>
+          </li>
+        </a>
+        <a href="./desenhar/desenhar.html">
+          <li>
+            <p>Desenhar</p>
+          </li>
+        </a>
+        <a href="./cores/cores.html">
+          <li>
+            <p>Paleta de cores</p>
+          </li>
+        </a>
+        <a href="#ferramenta1">
+          <li>
+            <p>Tipos de criação de conteúdo</p>
+          </li>
+        </a>
+        <a href="./paginaperfil/perfil.html">
+          <li>
+            <img src="profile.png" alt="" class="profpic" id="avatar" />
+          </li>
+        </a>
+      </ul>
+    </nav>
+    <main>
+      <div class="sobre">
+        <h2 class="sobre-titulo">Sobre</h2>
+        <span class="sobre-texto">
+          Criamos esse WebApp com o intuito de ajudar criadores de conteúdo a
+          organizar suas idéias, seu processo criativo e suas tarefas. Sabemos
+          que no mundo de hoje, a criação de conteúdo demanda bastante das
+          pessoas que trabalham nessa área. Nosso intuito é fazer com que você
+          encontre ferramentas que te auxiliem em seus processos e facilitem seu
+          dia-a-dia. Está estressado ou esgotado?
+          <strong style="color: blue; text-decoration: underline"
+            >ChillOut</strong
+          >!
+        </span>
+      </div>
+      <div class="video"></div>
+    </main>
+    <div class="content" id="ferramenta1"></div>
+    <footer>&copy ChillOut - 2022</footer>
+
+    <script src="script.js"></script>
+    <script src="./menu-mobile.js"></script>
+  </body>
+</html>

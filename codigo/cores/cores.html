@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link href="cores.css" rel="stylesheet">
+    <link href="../menu-mobile.css" rel="stylesheet">
+    <title>Chillout | Cores</title>
+    
+  </head>
+  <body>
+    <div class="btns-menu">
+      <img src="../menu.svg" alt="" class="abre-btn btn-menu" />
+      <img src="../x.svg" alt="" class="fecha-btn btn-menu" />
+    </div>
+    <div class="menu-mobile">
+      <a href="../index.html" class="menu-mobile-links">Home</a>
+      <a href="../to-do-list/to-do-list.html" class="menu-mobile-links">To-Do-List</a
+      ><a href="../desenhar/desenhar.html" class="menu-mobile-links"
+        >Desenhar</a
+      >
+      <a href="#" class="menu-mobile-links">Paleta de Cores</a
+      ><a href="#" class="menu-mobile-links">Tipos de criação de conteúdo</a>
+      <a href="../paginaperfil/perfil.html" class="menu-mobile-links"
+        ><img src="../profile.png" alt="Foto de Perfil" class="profpic"
+      /></a>
+    </div>
+    <nav>
+      <div class="logo">
+        <img src="../Logo_LG.svg" alt="Logo" class="logo-img" id="profpic" />
+      </div>
+      <ul id="botoesMenu">
+        <a href="../index.html">
+          <li>
+            <p>Home</p>
+          </li>
+        </a>
+        <a href="../to-do-list/to-do-list.html">
+          <li>
+            <p>To-Do-List</p>
+          </li>
+        </a>
+        <a href="../desenhar/desenhar.html">
+          <li>
+            <p>Desenhar</p>
+          </li>
+        </a>
+        <a href="../cores/cores.html" class="active">
+          <li>
+            <p>Paleta de cores</p>
+          </li>
+        </a>
+        <a href="#ferramenta1">
+          <li>
+            <p>Tipos de criação de conteúdo</p>
+          </li>
+        </a>
+        <a href="../paginaperfil/perfil.html">
+          <li>
+            <img src="profile.png" alt="" class="profpic" id="avatar" />
+          </li>
+        </a>
+      </ul>
+    </nav>
+    <div class="content" id="ferramenta1">
+      <div id="main">
+        <div id="gridprincipal" class="box">
+            <div id="gridcores">
+
+                <div id="corbut" class="cor adccor">
+                    <span>+</span>
+                </div>
+
+            </div>
+            <div id="lateral">
+                <div id="selectcolor" class="box">
+                    
+                </div>
+                <div id="colorinfo" class="box">
+                    <h2 id="corNome">Selecione Cor</h3>
+                    <h3 id="corHex">HEX</h3>
+                    <h3 id="corRGB">RGB</h3>
+                </div>
+                <div id="editBotoes">
+                    <div id="editar" class="botao"><span>Editar</span></div>
+                    <div id="remover" class="botao"><span>Remover</span></div>
+                </div>
+            </div>
+        </div>
+
+        <div id="menuNovaCor">
+            <div id="menu">
+                <div id="menuConteudo">
+                    <h1 class="menuTitle">Titulo</h1>
+                    <div class="menuFecha">X</div>
+                    <h2>Nome</h2>
+                    <input type="text" class="nomeCor">
+                    <h2>Cor</h2>
+                    <input type="color" class="corCor" name="corInput" id="">
+                    <button class="buttonForm">Pronto</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>&copy ChillOut - 2022</footer>
+    <script src="cores_js.js"></script>
+    <script src="../menu-mobile.js"></script>
+  </body>
+</html>

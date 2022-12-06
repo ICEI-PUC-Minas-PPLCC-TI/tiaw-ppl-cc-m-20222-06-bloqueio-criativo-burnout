@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChillOut | Cadastro To-Do-List</title>
+    <link rel="stylesheet" href="to-do-list.css" />
+    <link rel="stylesheet" href="../menu-mobile.css" />
+  </head>
+  <body>
+    <div class="btns-menu">
+      <img src="../menu.svg" alt="" class="abre-btn btn-menu" />
+      <img src="../x.svg" alt="" class="fecha-btn btn-menu" />
+    </div>
+    <div class="menu-mobile">
+      <a href="../index.html" class="menu-mobile-links">Home</a>
+      <a href="./to-do-list.html" class="menu-mobile-links">To-Do-List</a
+      ><a href="../desenhar/desenhar.html" class="menu-mobile-links"
+        >Desenhar</a
+      >
+      <a href="../cores/cores.html" class="menu-mobile-links">Paleta de Cores</a
+      ><a href="#" class="menu-mobile-links">Tipos de criação de conteúdo</a>
+      <a href="../paginaperfil/perfil.html" class="menu-mobile-links"
+        ><img src="../profile.png" alt="Foto de Perfil" class="profpic"
+      /></a>
+    </div>
+    <header>
+      <nav>
+        <div class="logo">
+          <img src="../Logo_LG.svg" alt="Logo" class="logo-img" />
+        </div>
+        <button id="btnmenu" onclick="abrirMenu()">&#9776;</button>
+        <ul id="botoesMenu">
+          <a href="../index.html">
+            <li>
+              <p class="item-menu">Home</p>
+            </li>
+          </a>
+          <a href="#ferramenta1" class="active">
+            <li>
+              <p class="item-menu">To-Do-List</p>
+            </li>
+          </a>
+          <a href="../desenhar/desenhar.html">
+            <li>
+              <p class="item-menu">Desenhar</p>
+            </li>
+          </a>
+          <a href="../cores/cores.html">
+            <li>
+              <p class="item-menu">Paleta de cores</p>
+            </li>
+          </a>
+          <a href="#ferramenta1">
+            <li>
+              <p class="item-menu">Tipos de criação de conteúdo</p>
+            </li>
+          </a>
+          <a href="../paginaperfil/perfil.html">
+            <li>
+              <img src="./assets/profile.png" alt="" class="profpic" id="avatar" />
+            </li>
+          </a>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="barra-esquerda">
+        <a href="././to-do-list.html" class="btn-voltar"
+          ><i data-feather="list"></i> Ir para minhas listas</a
+        >
+      </section>
+
+      <div class="form-container" id="cadastro">
+        <div class="tela-cadastro">
+          <h1 class="form-titulo">Registro de lista</h1>
+          <form>
+            <label for="title">Título</label>
+            <input type="text" id="title" />
+            <label for="number">Número de tarefas</label>
+            <input type="number" id="number" />
+            <button class="form-btn" id="form-btn" type="button">
+              Criar tarefas
+            </button>
+            <div class="tarefas-cadastro" id="tarefas-cadastro">
+              <!--<div class="form-tarefa">
+                      <span class="urgency">Urgency</span>
+                      <select name="urgency">
+                        <option class="nao-emergencia" value="nao-emergencia">Not Urgent</option>
+                        <option class="pouca-emergencia" value="pouca-emergencia">Little Urgent</option>
+                        <option class="emergencia" value="emergencia">Urgent</option>
+                      </select>
+                      <label class="descricao" for="descricao">Description</label>
+                      <input type="text" id="descricao-tarefa">
+                    </div>-->
+              <span class="info"
+                ><i data-feather="info"></i> O máximo de tarefas por lista é
+                10</span
+              >
+              <img
+                src="./assets/Checklist.png"
+                alt="checklist"
+                class="checklist-image"
+              />
+            </div>
+            <button class="save-btn" id="save-btn" type="submit">
+              Salvar Lista
+            </button>
+          </form>
+        </div>
+      </div>
+
+      <section class="aviso_cadastro">
+        <div class="aviso_cadastro-container">
+          <div class="aviso_cadastro-mensagem">
+            <h2 class="aviso_cadastro-titulo">Lista registrada!</h2>
+            <i class="aviso_cadastro-icone" data-feather="smile"></i>
+          </div>
+          <div class="aviso_cadastro-botoes">
+            <a href="./to-do-list.html" class="aviso_cadastro-listas"
+              >Ir para listas</a
+            >
+            <a href="#" class="aviso_cadastro-add">Add nova lista</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+      feather.replace();
+    </script>
+    <script src="cadastroToDoList.js"></script>
+    <script src="../menu-mobile.js"></script>
+  </body>
+</html>

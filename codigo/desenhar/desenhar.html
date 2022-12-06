@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DRAWapp</title>
+    <link rel="stylesheet" href="../styles.css" />
+    <link rel="stylesheet" href="desenhar.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <h1>LOGO</h1>
+      </div>
+      <button id="btnmenu" onclick="abrirMenu()">&#9776;</button>
+      <ul id="botoesMenu">
+        <a href="../index.html">
+          <li>
+            <p>Home</p>
+          </li>
+        </a>
+        <a href="../to-do-list/to-do-list.html">
+          <li>
+            <p>To-Do-List</p>
+          </li>
+        </a>
+        <a href="#ferramenta1" class="active">
+          <li>
+            <p>Desenhar</p>
+          </li>
+        </a>
+        <a href="../cores/cores.html">
+          <li>
+            <p>Paleta de cores</p>
+          </li>
+        </a>
+        <a href="#ferramenta1">
+          <li>
+            <p>Tipos de criação de conteúdo</p>
+          </li>
+        </a>
+        <a href="#perfil">
+          <li>
+            <img src="profile.png" alt="" class="profpic" />
+          </li>
+        </a>
+      </ul>
+    </nav>
+    <div class="content" id="ferramenta1">
+      <canvas id="canvas"></canvas>
+      <div class="tools">
+        <button onclick="undoCanvas()" type="button" class="btn">Undo</button>
+        <button onclick="clearCanvas()" type="button" class="btn">Clear</button>
+        <div class="color-field" style="background: black"></div>
+        <div class="color-field" style="background: red"></div>
+        <div class="color-field" style="background: blue"></div>
+        <input
+          onInput="draw_color = this.value"
+          type="color"
+          class="color-picker"
+        />
+        <input
+          onInput="draw_width = this.value"
+          type="range"
+          min="1"
+          max="100"
+          class="pen-range"
+        />
+      </div>
+      <div><button id="save">Save as json</button></div>
+      <button id="download">Save as img</button>
+      <div>load IMG <input type="file" id="load" /></div>
+    </div>
+    <div class="content" id="perfil" style="background-color: red">
+      <div class="height-nav" style="bottom: 0px">Perfil</div>
+    </div>
+    <footer>FOOTER</footer>
+    <script src="desenhar.js"></script>
+  </body>
+</html>

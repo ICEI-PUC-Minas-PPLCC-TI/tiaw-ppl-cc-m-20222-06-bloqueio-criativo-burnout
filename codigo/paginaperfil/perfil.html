@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ChillOut | Perfil</title>
+    <script defer src="modeloperfis.js"></script>
+    <link rel="stylesheet" href="./perfil.css">
+    <link rel="stylesheet" href="../menu-mobile.css">
+</head>
+<body>
+  <!--div class="list">
+  </div-->
+  <div class="btns-menu">
+    <img src="../menu.svg" alt="" class="abre-btn btn-menu" />
+    <img src="../x.svg" alt="" class="fecha-btn btn-menu" />
+  </div>
+  <div class="menu-mobile">
+    <a href="../index.html" class="menu-mobile-links">Home</a>
+    <a href="./to-do-list/to-do-list.html" class="menu-mobile-links"
+      >To-Do-List</a
+    ><a href="../desenhar/desenhar.html" class="menu-mobile-links">Desenhar</a>
+    <a href="../cores/cores.html" class="menu-mobile-links">Paleta de Cores</a
+    ><a href="#" class="menu-mobile-links">Tipos de criação de conteúdo</a>
+    <a href="#" class="menu-mobile-links"
+      ><img src="../profile.png" alt="Foto de Perfil" class="profpic"
+    /></a>
+  </div>
+    <nav>
+      <div class="logo">
+        <img src="../Logo_LG.svg" alt="Logo" class="logo-img" />
+      </div>
+      <button id="btnmenu" onclick="abrirMenu()">&#9776;</button>
+      <ul id="botoesMenu">
+        <a href="../index.html">
+          <li>
+            <p>Home</p>
+          </li>
+        </a>
+        <a href="../to-do-list/to-do-list.html">
+          <li>
+            <p>To-Do-List</p>
+          </li>
+        </a>
+        <a href="../desenhar/desenhar.html">
+          <li>
+            <p>Desenhar</p>
+          </li>
+        </a>
+        <a href="../cores/cores.html">
+          <li>
+            <p>Paleta de cores</p>
+          </li>
+        </a>
+        <a href="#ferramenta1">
+          <li>
+            <p>Tipos de criação de conteúdo</p>
+          </li>
+        </a>
+        <a href="#">
+          <li>
+            <img src="profile.png" alt="" class="profpic" id = "avatar" />
+          </li>
+        </a>
+      </ul>
+    </nav>
+  <div class="topnav">
+    <a href="#" onclick="editarNome()">Editar Nome</a>
+    <a href="#">Editar Senha</a>
+  </div>
+  <div id="tela">
+    <div class="content">
+      <img id="avatar" src="https://www.w3schools.com/w3images/avatar2.png" alt="Avatar" style="width:200px">
+    <p><h1 id="nome">Nome Do Perfil</h1></p>
+    <label id="labelnvnm" for="input" hidden>Novo Nome: <input id="nvnm" type="text"><button onclick="salvarNome()">Salvar</button></label><br>
+    <p>Alterar Foto de Perfil</p>
+    <input type="file" onchange="previewFile()" /><br>
+    <h2>Listas</h2>
+    <button  id="abrelista" onclick="window.location.href='../to-do-list/to-do-list.html'">Abrir Listas</button>
+    </div>
+  </div>
+
+  <footer>&copy ChillOut - 2022</footer>
+
+  <script src="cadastroToDoList.js"></script>
+</body>
+</html>
